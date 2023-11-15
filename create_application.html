@@ -1,0 +1,862 @@
+<p>!DOCTYPE html&gt; Retailer</p>
+<!-- BEGIN VENDOR CSS-->
+<p>&nbsp;</p>
+<!-- font icons-->
+<p>&nbsp;</p>
+<!-- END VENDOR CSS-->
+<p>&nbsp;</p>
+<!-- BEGIN APEX CSS-->
+<p>&nbsp;</p>
+<!-- END APEX CSS-->
+<p>&nbsp;</p>
+<!-- BEGIN Page Level CSS-->
+<p>&nbsp;</p>
+<!-- END Page Level CSS-->
+<p>&nbsp;</p>
+<!-- BEGIN: Custom CSS-->
+<p>&nbsp;</p>
+<!-- Bootstrap time Picker -->
+<p>&nbsp;</p>
+<!-- END: Custom CSS-->
+<script type="text/javascript" src="/app-assets/vendors/js/vendors.min.js"></script>
+<script type="text/javascript" src="/plugins/alertifyjs/alertify.min.js"></script>
+<form id="form1" action="./CreateApplication.aspx" method="post" enctype="multipart/form-data" onsubmit="javascript:return WebForm_OnSubmit();">
+<div class="aspNetHidden"><input id="__EVENTTARGET" type="hidden" name="__EVENTTARGET" value="" /> <input id="__EVENTARGUMENT" type="hidden" name="__EVENTARGUMENT" value="" /> <input id="__VIEWSTATE" type="hidden" name="__VIEWSTATE" value="/wEPDwUJODczMjcwMDgzD2QWAmYPZBYCAgMPFgIeB2VuY3R5cGUFE211bHRpcGFydC9mb3JtLWRhdGEWBAIBDxYCHglpbm5lcmh0bWwFEFBhbGxhYiBNdWtoZXJqZWVkAgMPZBYCAgEPZBYGAhcPEGRkFgFmZAJPDxBkZBYBZmQCXw8QZGQWAWZkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYGBSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0lzVXBkYXRlTmV3TmFtZQUrY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtJc1VwZGF0ZUdlbmRlcgUoY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtJc1VwZGF0ZURPQgUsY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtJc1VwZGF0ZUFkZHJlc3MFK2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrSXNVcGRhdGVNYWlsSWQFK2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrSXNVcGRhdGVNb2JpbGWV9GSABtiIH2aigfQhMAj43h9iUA==" /></div>
+<script type="text/javascript">// <![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// ]]></script>
+<script type="text/javascript" src="/WebResource.axd?d=7BMKPcrMAdQheV0LC9SoLzHISILhIYMswHbBnLD-9nLwuwTWujWOdQoLTcG4wIJuLElGF5XrKz6le0G54UVDf--txy81&amp;t=637925732077572554"></script>
+<script type="text/javascript">// <![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+// ]]></script>
+<div class="aspNetHidden"><input id="__VIEWSTATEGENERATOR" type="hidden" name="__VIEWSTATEGENERATOR" value="5A0DAB71" /></div>
+<div class="container-fluid navbar-wrapper">
+<div class="navbar-header d-flex">
+<div class="navbar-toggle menu-toggle d-xl-none d-block float-left align-items-center justify-content-center" data-toggle="collapse">&nbsp;</div>
+<div class="navbar-brand-center">
+<div class="navbar-header">
+<ul class="navbar-nav">
+<li class="nav-item">
+<div class="logo">
+<div class="logo-img"><img class="logo-img" src="/app-assets/img/logo-dark.png" alt="Apex logo" /></div>
+<a class="logo-text" href="Default.aspx"><span class="text">Soft</span> </a></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar-container">
+<div id="navbarSupportedContent" class="collapse navbar-collapse d-block">
+<ul class="navbar-nav">
+<li class="dropdown nav-item mr-1">
+<div class="user d-md-flex d-none mr-2"><span id="lblUserName" class="text-right">Pallab Mukherjee</span><span class="text-right text-muted font-small-3">Retailer</span></div>
+<a id="dropdownBasic2" class="nav-link dropdown-toggle user-dropdown d-flex align-items-end" href="javascript:;" data-toggle="dropdown"><img class="avatar" src="/app-assets/img/portrait/small/avatar-s-1.png" alt="avatar" width="35" height="35" /> </a>
+<div class="dropdown-menu text-left dropdown-menu-right m-0 pb-0">
+<div class="d-flex align-items-center"><span>Change Password</span></div>
+<div class="dropdown-divider">&nbsp;</div>
+<div class="d-flex align-items-center"><span>Logout</span></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="wrapper">
+<div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-light navbar-shadow menu-border navbar-brand-center" data-menu="menu-wrapper"><!-- Horizontal menu content-->
+<div class="navbar-container main-menu-content center-layout" data-menu="menu-container"><!-- include ///includes/mixins-->
+<ul id="main-menu-navigation" class="navigation-main nav navbar-nav" data-menu="menu-navigation">
+<li><a class="nav-link d-flex align-items-center" href="Default.aspx"><span data-i18n="Dashboard">Dashboard</span></a></li>
+<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="javascript:;" data-toggle="dropdown"><span>Aadhaar Application</span></a>
+<ul class="dropdown-menu">
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="CreateApplication.aspx" data-toggle="dropdown"><span>Add New Application</span></a></li>
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="ApplicationList.aspx" data-toggle="dropdown"><span>Application Report</span></a></li>
+</ul>
+</li>
+<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="javascript:;" data-toggle="dropdown"><span>Download Voter ID</span></a>
+<ul class="dropdown-menu">
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="votrApplication.aspx" data-toggle="dropdown"><span>Add New Application</span></a></li>
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="votrApplicationList.aspx" data-toggle="dropdown"><span>Application Report</span></a></li>
+</ul>
+</li>
+<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="javascript:;" data-toggle="dropdown"><span>Wallet Management</span></a>
+<ul class="dropdown-menu">
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="Wlt_TopupOnline.aspx" data-toggle="dropdown"><span>Online Wallet Topup</span></a></li>
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="Wlt_TopupOffline.aspx" data-toggle="dropdown"><span>Offline Wallet Topup</span></a></li>
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="Wlt_TopupOfflineReport.aspx" data-toggle="dropdown"><span>Offline Wallet Topup Report</span></a></li>
+<li data-menu=""><a class="dropdown-item d-flex align-items-center" href="Wlt_AllTransactions.aspx" data-toggle="dropdown"><span>Wallet Transaction Report</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="main-panel">
+<div class="main-content">
+<div class="content-overlay">&nbsp;</div>
+<div class="content-wrapper">
+<div id="ContentPlaceHolder1_lblError">&nbsp;</div>
+<div class="row match-height">
+<div class="col-12">
+<div id="ContentPlaceHolder1_divMainContent" class="card">
+<div class="card-header">
+<h4 id="ContentPlaceHolder1_lblTitle1" class="card-title">Create Application</h4>
+</div>
+<div id="ContentPlaceHolder1_lblPageError">&nbsp;</div>
+<div class="card-content">
+<div class="card-body">
+<ul class="nav nav-tabs">
+<li class="nav-item"><a id="base-tab11" class="nav-link active" href="#tab1" data-toggle="tab">Online Update</a></li>
+<li class="nav-item"><a id="base-tab12" class="nav-link" href="#tab2" data-toggle="tab">Documents</a></li>
+<li class="nav-item"><a id="base-tab13" class="nav-link" href="#tab3" data-toggle="tab">Biometric Details</a></li>
+</ul>
+<div class="tab-content">
+<div id="tab1" class="tab-pane active pt-3">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Name on Aadhaar<span class="text-danger">*</span></label>
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtName" class="form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtName" /> <span id="ContentPlaceHolder1_ctl00" style="color: red; display: none;">Feild Required!</span></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Aadhaar No <span class="text-danger">*</span></label>
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtAadhaarNo" class="form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtAadhaarNo" maxlength="12" /> <span id="ContentPlaceHolder1_ctl01" style="color: red; display: none;">Feild Required!</span></div>
+</div>
+</div>
+</div>
+<hr />
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row mb-0"><label class="col-md-3 col-form-label">New Name </label>
+<div class="col-md-9"><fieldset class="mb-2">
+<div class="input-group mb-0">
+<div class="input-group-prepend">
+<div class="input-group-text"><label class="form-check-label"> <span class="mt-0"><input id="ContentPlaceHolder1_chkIsUpdateNewName" type="checkbox" name="ctl00$ContentPlaceHolder1$chkIsUpdateNewName" /></span> </label></div>
+</div>
+<input id="ContentPlaceHolder1_txtNewName" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtNewName" disabled="disabled" /></div>
+<span id="ContentPlaceHolder1_CustomValidator6" style="color: red; display: none;">Feild Required!</span></fieldset></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row mb-0">
+<div class="col-md-9 mb-2"><input id="ContentPlaceHolder1_txtHNewName" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHNewName" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row mb-0"><label class="col-md-3 col-form-label">Update Gender</label>
+<div class="col-md-9"><fieldset class="mb-2">
+<div class="input-group mb-0">
+<div class="input-group-prepend">
+<div class="input-group-text"><label class="form-check-label"> <span class="mt-0"><input id="ContentPlaceHolder1_chkIsUpdateGender" type="checkbox" name="ctl00$ContentPlaceHolder1$chkIsUpdateGender" /></span> </label></div>
+</div>
+<select id="ContentPlaceHolder1_cboGender" class="aspNetDisabled form-control square" name="ctl00$ContentPlaceHolder1$cboGender" disabled="disabled">
+<option selected="selected" value="">Select</option>
+<option value="MALE">Male</option>
+<option value="FEMALE">Female</option>
+<option value="OTHER">Other</option>
+</select></div>
+<span id="ContentPlaceHolder1_CustomValidator7" style="color: red; display: none;">Feild Required!</span></fieldset></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row mb-0"><label class="col-md-3 col-form-label">Update DOB</label>
+<div class="col-md-9"><fieldset class="mb-2">
+<div class="input-group mb-0">
+<div class="input-group-prepend">
+<div class="input-group-text"><label class="form-check-label"> <span class="mt-0"><input id="ContentPlaceHolder1_chkIsUpdateDOB" type="checkbox" name="ctl00$ContentPlaceHolder1$chkIsUpdateDOB" /></span> </label></div>
+</div>
+<input id="ContentPlaceHolder1_txtDOB" class="aspNetDisabled form-control square datepicker_1" type="text" name="ctl00$ContentPlaceHolder1$txtDOB" disabled="disabled" /></div>
+<span id="ContentPlaceHolder1_CustomValidator8" style="color: red; display: none;">Feild Required!</span></fieldset></div>
+</div>
+</div>
+</div>
+<hr />
+<div class="row mb-2">
+<div class="col-md-6">
+<div class="form-group row mb-0">
+<h6 class="col-md-3">Contact Details</h6>
+<div class="col-md-9"><label class="form-check-label"> <span class="mt-0"><input id="ContentPlaceHolder1_chkIsUpdateAddress" type="checkbox" name="ctl00$ContentPlaceHolder1$chkIsUpdateAddress" /></span> Is Update Address </label></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">C/O</label>
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtCo" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtCo" disabled="disabled" /></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtHCo" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHCo" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Landmark</label>
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtALandmark" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtALandmark" disabled="disabled" /></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtHALandmark" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHALandmark" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Area/Location/Sector</label>
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtALocation" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtALocation" disabled="disabled" /></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtHALocation" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHALocation" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Village/Town City</label>
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtAVillageCity" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtAVillageCity" disabled="disabled" /></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-9"><input id="ContentPlaceHolder1_txtHAVillageCity" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHAVillageCity" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">District, P.O.</label>
+<div class="col-md-5"><input id="ContentPlaceHolder1_txtADistrict" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtADistrict" disabled="disabled" /></div>
+<div class="col-md-4"><input id="ContentPlaceHolder1_txtAPO" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtAPO" disabled="disabled" /></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-5"><input id="ContentPlaceHolder1_txtHADistrict" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHADistrict" disabled="disabled" /></div>
+<div class="col-md-5"><input id="ContentPlaceHolder1_txtHAPO" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHAPO" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">State, Pincode</label>
+<div class="col-md-5"><input id="ContentPlaceHolder1_txtAState" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtAState" disabled="disabled" /></div>
+<div class="col-md-4"><input id="ContentPlaceHolder1_txtPincode" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtPincode" disabled="disabled" /></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-5"><input id="ContentPlaceHolder1_txtHAState" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHAState" disabled="disabled" /></div>
+<div class="col-md-5"><input id="ContentPlaceHolder1_txtHPincode" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtHPincode" disabled="disabled" /></div>
+</div>
+</div>
+</div>
+<hr />
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row mb-0"><label class="col-md-3 col-form-label">Update Mail id</label>
+<div class="col-md-9"><fieldset class="mb-2">
+<div class="input-group mb-0">
+<div class="input-group-prepend">
+<div class="input-group-text"><label class="form-check-label"> <span class="mt-0"><input id="ContentPlaceHolder1_chkIsUpdateMailId" type="checkbox" name="ctl00$ContentPlaceHolder1$chkIsUpdateMailId" /></span> </label></div>
+</div>
+<input id="ContentPlaceHolder1_txtNewMailId" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtNewMailId" disabled="disabled" /></div>
+<span id="ContentPlaceHolder1_CustomValidator10" style="color: red; display: none;">Feild Required!</span></fieldset></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row mb-0"><label class="col-md-3 col-form-label">Update Mobile</label>
+<div class="col-md-9"><fieldset class="mb-2">
+<div class="input-group mb-0">
+<div class="input-group-prepend">
+<div class="input-group-text"><label class="form-check-label"> <span class="mt-0"><input id="ContentPlaceHolder1_chkIsUpdateMobile" type="checkbox" name="ctl00$ContentPlaceHolder1$chkIsUpdateMobile" /></span> </label></div>
+</div>
+<input id="ContentPlaceHolder1_txtNewMobile" class="aspNetDisabled form-control square" type="text" name="ctl00$ContentPlaceHolder1$txtNewMobile" disabled="disabled" /></div>
+<span id="ContentPlaceHolder1_CustomValidator11" style="color: red; display: none;">Feild Required!</span></fieldset></div>
+</div>
+</div>
+</div>
+</div>
+<div id="tab2" class="tab-pane pt-3">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Date of Birth Proof</label>
+<div class="col-md-9"><select id="ContentPlaceHolder1_cboProofDOB" class="aspNetDisabled form-control square select2" name="ctl00$ContentPlaceHolder1$cboProofDOB" disabled="disabled">
+<option selected="selected" value="">Select</option>
+<option value="SSLC Book/Certificate">SSLC Book/Certificate</option>
+<option value="Birth Certificate">Birth Certificate</option>
+<option value="Central Govt. Health Service Scheme photo card or Ex-Servicemen Contributory Health Scheme photo card">Central Govt. Health Service Scheme photo card or Ex-Servicemen Contributory Health Scheme photo card</option>
+<option value="Central/State Pension payment order">Central/State Pension payment order</option>
+<option value="School Leaving Certificate (SLC) / School Transfer Certificate (TC), containing Name and Date of Birth">School Leaving Certificate (SLC) / School Transfer Certificate (TC), containing Name and Date of Birth</option>
+<option value="Certificate of Date of Birth issued by Group A Gazetted Officer on letterhead">Certificate of Date of Birth issued by Group A Gazetted Officer on letterhead</option>
+<option value="Certificate of Identity containing Name, Address and Photo issued by Recognized Educational Institution signed by Head of Institute">Certificate of Identity containing Name, Address and Photo issued by Recognized Educational Institution signed by Head of Institute</option>
+<option value="Certificate of identity containing Name, DOB and Photograph issued by EmployeesProvident Fund Organisation (EPFO) on UIDAI standard certificate format">Certificate of identity containing Name, DOB and Photograph issued by EmployeesProvident Fund Organisation (EPFO) on UIDAI standard certificate format</option>
+<option value="Extract of School Records issued by Head of School containing Name, Date of Birth and Photo">Extract of School Records issued by Head of School containing Name, Date of Birth and Photo</option>
+<option value="Government issued certificate (or card) having photo and duly signed by the signing authority">Government issued certificate (or card) having photo and duly signed by the signing authority</option>
+<option value="Govt. Photo ID Card/Photo Identity card issued by PSU containing DoB">Govt. Photo ID Card/Photo Identity card issued by PSU containing DoB</option>
+<option value="Marksheet issued by any Govt. Board or University">Marksheet issued by any Govt. Board or University</option>
+<option value="PAN Card">PAN Card</option>
+<option value="Passport">Passport</option>
+<option value="Photo ID having Date of Birth issued by Recognized Educational Institution">Photo ID having Date of Birth issued by Recognized Educational Institution</option>
+</select><span id="ContentPlaceHolder1_CustomValidator9" style="color: red; display: none;">Feild Required!</span></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-5"><input id="ContentPlaceHolder1_flUpProofDOB" class="aspNetDisabled form-control square" type="file" name="ctl00$ContentPlaceHolder1$flUpProofDOB" disabled="disabled" /> <input id="ContentPlaceHolder1_hlHidProofDOB" type="hidden" name="ctl00$ContentPlaceHolder1$hlHidProofDOB" /> <span id="ContentPlaceHolder1_CustomValidator12" style="color: red; display: none;">Feild Required!</span></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Identity Proof</label>
+<div class="col-md-9"><select id="ContentPlaceHolder1_cboProofIdentity" class="form-control square select2" name="ctl00$ContentPlaceHolder1$cboProofIdentity">
+<option value="">Select</option>
+<option value="Driving License.">Driving License.</option>
+<option value="Photo Bank ATM Card.">Photo Bank ATM Card.</option>
+<option value="Arms License.">Arms License.</option>
+<option value="Kissan Photo Passbook.">Kissan Photo Passbook.</option>
+<option value="Marriage Certificate with Photograph.">Marriage Certificate with Photograph.</option>
+<option value="NREGA Job Card.">NREGA Job Card.</option>
+<option value="Pensioner Photo Card.">Pensioner Photo Card.</option>
+<option value="Photo Bank ATM Card.">Photo Bank ATM Card.</option>
+<option value="Photo Credit Card.">Photo Credit Card.</option>
+<option value="Voter ID.">Voter ID.</option>
+<option value="CGHS / ECHS Card.">CGHS / ECHS Card.</option>
+<option value="Address Card having Name and Photo issued by Department of Post.">Address Card having Name and Photo issued by Department of Post.</option>
+<option value="Bank Pass Book having name and photo.">Bank Pass Book having name and photo.</option>
+<option value="Bhamashah Card.">Bhamashah Card.</option>
+<option value="CGHS / ECHS Photo Card.">CGHS / ECHS Photo Card.</option>
+<option value="Certificate from Superintendent/ Warden/Matron/ Head of lnstitution of recognized Shelter Homes for Orphanages, Homes etc on their letter head.">Certificate from Superintendent/ Warden/Matron/ Head of lnstitution of recognized Shelter Homes for Orphanages, Homes etc on their letter head.</option>
+<option value="Certificate of Identity containing name and photo issued by Recognized Educational Institution signed by Head of Institute.">Certificate of Identity containing name and photo issued by Recognized Educational Institution signed by Head of Institute.</option>
+<option value="Certificate of Identity having photo issued by any Gazetted Officer or Tehsildar on official letter head.">Certificate of Identity having photo issued by any Gazetted Officer or Tehsildar on official letter head.</option>
+<option value="Certificate of identity containing Name, DOB and Photograph issued by EmployeesProvident Fund Organisation (EPFO) on UIDAI standard certificate format.">Certificate of identity containing Name, DOB and Photograph issued by EmployeesProvident Fund Organisation (EPFO) on UIDAI standard certificate format.</option>
+<option value="Certificate of identity having photo issued by village panchayat head or Mukhiya for rural areas.">Certificate of identity having photo issued by village panchayat head or Mukhiya for rural areas.</option>
+<option value="Certificate of ldentity having photo issued by MP or MLA or Municipal Councillor on letterhead.">Certificate of ldentity having photo issued by MP or MLA or Municipal Councillor on letterhead.</option>
+<option value="Disability ID Card/handicapped medical certificate issued by the respective State/UT Governments/Administrations.">Disability ID Card/handicapped medical certificate issued by the respective State/UT Governments/Administrations.</option>
+<option value="Extract of School Records issued by Head of School containing name and photo.">Extract of School Records issued by Head of School containing name and photo.</option>
+<option value="Gazette notification for name change.">Gazette notification for name change.</option>
+<option value="Govt Photo Identity Card/Service photo identity card issued by PSU.">Govt Photo Identity Card/Service photo identity card issued by PSU.</option>
+<option value="PAN Card.">PAN Card.</option>
+<option value="Passport.">Passport.</option>
+<option value="Ration/PDS Photo Card.">Ration/PDS Photo Card.</option>
+<option value="Ration/PDS Photo Card.">Ration/PDS Photo Card.</option>
+<option value="ST/SC/OBC certificate with Photo.">ST/SC/OBC certificate with Photo.</option>
+<option value="School Leaving Certificate (SLC) / School Transfer Certificate (TC), containing name and photo.">School Leaving Certificate (SLC) / School Transfer Certificate (TC), containing name and photo.</option>
+<option value="Photo ID issued by Recognized Educational Institution.">Photo ID issued by Recognized Educational Institution.</option>
+<option value="RSBY Card.">RSBY Card.</option>
+</select></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-5"><input id="ContentPlaceHolder1_flUpProofIdentity" class="form-control square" type="file" name="ctl00$ContentPlaceHolder1$flUpProofIdentity" /> <input id="ContentPlaceHolder1_hlHidProofIdentity" type="hidden" name="ctl00$ContentPlaceHolder1$hlHidProofIdentity" /></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Address Proof</label>
+<div class="col-md-9"><select id="ContentPlaceHolder1_cboProofAddress" class="aspNetDisabled form-control square select2" name="ctl00$ContentPlaceHolder1$cboProofAddress" disabled="disabled">
+<option selected="selected" value="">Select</option>
+<option value="Driving License.">Driving License.</option>
+<option value="Vehicle Registration Certificate.">Vehicle Registration Certificate.</option>
+<option value="Arms License.">Arms License.</option>
+<option value="Credit Card Statement (not older than 3 months).">Credit Card Statement (not older than 3 months).</option>
+<option value="Property Tax Receipt not older than 1 year.">Property Tax Receipt not older than 1 year.</option>
+<option value="Telephone Landline Bill (not older than 3 months).">Telephone Landline Bill (not older than 3 months).</option>
+<option value="Electricity Bill (not older than 3 months).">Electricity Bill (not older than 3 months).</option>
+<option value="Voter ID.">Voter ID.</option>
+<option value="Water Bill (not older than 3 months).">Water Bill (not older than 3 months).</option>
+<option value="Address Card having Photo issued by Department of Posts.">Address Card having Photo issued by Department of Posts.</option>
+<option value="Kissan Passbook.">Kissan Passbook.</option>
+<option value="Marriage Certificate issued by the Government, containing address.">Marriage Certificate issued by the Government, containing address.</option>
+<option value="Pensioner Card.">Pensioner Card.</option>
+<option value="Passport of Spouse.">Passport of Spouse.</option>
+<option value="Property Tax Receipt not older than 1 year.">Property Tax Receipt not older than 1 year.</option>
+<option value="Certificate of Address having photo issued by MP or MLA or Group A Gazetted Officer on letterhead.">Certificate of Address having photo issued by MP or MLA or Group A Gazetted Officer on letterhead.</option>
+<option value="Certificate of Address issued by Village Panchayat head or its equivalent authority (for rural areas).">Certificate of Address issued by Village Panchayat head or its equivalent authority (for rural areas).</option>
+<option value="Certificate of Identity containing Name, Address and Photo issued by Recognized Educational Institution signed by Head of Institute.">Certificate of Identity containing Name, Address and Photo issued by Recognized Educational Institution signed by Head of Institute.</option>
+<option value="Certificate of address having photo issued by municipal councilor on letterhead.">Certificate of address having photo issued by municipal councilor on letterhead.</option>
+<option value="Certificate of identity containing Name, DOB and Photograph issued by EmployeesProvident Fund Organisation (EPFO) on UIDAI standard certificate format.">Certificate of identity containing Name, DOB and Photograph issued by EmployeesProvident Fund Organisation (EPFO) on UIDAI standard certificate format.</option>
+<option value="Disability ID Card/handicapped medical certificate issued by the respective State/UT Governments/Administrations.">Disability ID Card/handicapped medical certificate issued by the respective State/UT Governments/Administrations.</option>
+<option value="Extract of School Records containing Name, Address and Photo issued by Head of School.">Extract of School Records containing Name, Address and Photo issued by Head of School.</option>
+<option value="Govt Photo Identity Card/Service photo identity card issued by PSU.">Govt Photo Identity Card/Service photo identity card issued by PSU.</option>
+<option value="Insurance Policy.">Insurance Policy.</option>
+<option value="Passport.">Passport.</option>
+<option value="Passport of Parents (in case of minor).">Passport of Parents (in case of minor).</option>
+<option value="Post Office Account Statement/Passbook.">Post Office Account Statement/Passbook.</option>
+<option value="Ration Card.">Ration Card.</option>
+<option value="Registered Sale / Lease /Rent Agreement.">Registered Sale / Lease /Rent Agreement.</option>
+<option value="SSLC Book having candidates Photograph.">SSLC Book having candidates Photograph.</option>
+<option value="School Leaving Certificate (SLC) / School Transfer Certificate (TC), containing Name and Address.">School Leaving Certificate (SLC) / School Transfer Certificate (TC), containing Name and Address.</option>
+<option value="School identity card.">School identity card.</option>
+<option value="Signed Letter having Photo from Bank on letterhead.">Signed Letter having Photo from Bank on letterhead.</option>
+<option value="Signed Letter having Photo issued by Recognized Educational Institution on letterhead.">Signed Letter having Photo issued by Recognized Educational Institution on letterhead.</option>
+<option value="Signed Letter having Photo issued by registered Company on letterhead.">Signed Letter having Photo issued by registered Company on letterhead.</option>
+<option value="Address Card having Name and Photo issued by Department of Posts.">Address Card having Name and Photo issued by Department of Posts.</option>
+<option value="Bhamashah Card.">Bhamashah Card.</option>
+<option value="Allotment letter of accommodation issued by Central/State Govt. of not more than 3 years old.">Allotment letter of accommodation issued by Central/State Govt. of not more than 3 years old.</option>
+<option value="Bank Statement/Passbook.">Bank Statement/Passbook.</option>
+<option value="Caste and Domicile Certificate having Photo issued by State Govt.">Caste and Domicile Certificate having Photo issued by State Govt.</option>
+<option value="Certificate from Superintendent/ Warden/Matron/ Head of lnstitution of recognized Shelter Homes for Orphanages, Homes etc on their letter head.">Certificate from Superintendent/ Warden/Matron/ Head of lnstitution of recognized Shelter Homes for Orphanages, Homes etc on their letter head.</option>
+<option value="CGHS / ECHS Card.">CGHS / ECHS Card.</option>
+<option value="Gas Connection Bill( not older than 3 months).">Gas Connection Bill( not older than 3 months).</option>
+<option value="Income Tax Assessment Order.">Income Tax Assessment Order.</option>
+<option value="Narega job card.">Narega job card.</option>
+</select><span id="ContentPlaceHolder1_CustomValidator13" style="color: red; display: none;">Feild Required!</span></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-5"><input id="ContentPlaceHolder1_flUpProofAddress" class="aspNetDisabled form-control square" type="file" name="ctl00$ContentPlaceHolder1$flUpProofAddress" disabled="disabled" /> <input id="ContentPlaceHolder1_hlHidProofAddress" type="hidden" name="ctl00$ContentPlaceHolder1$hlHidProofAddress" /> <span id="ContentPlaceHolder1_CustomValidator14" style="color: red; display: none;">Feild Required!</span></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group row"><label class="col-md-3 col-form-label">Enrollment Form</label>
+<div class="col-md-9"><select id="ContentPlaceHolder1_DropDownList1" class="form-control square" name="ctl00$ContentPlaceHolder1$DropDownList1">
+<option value="Enrollment Form">Enrollment Form</option>
+</select></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group row">
+<div class="col-md-5"><input id="ContentPlaceHolder1_flUpEnrollment" class="form-control square" type="file" name="ctl00$ContentPlaceHolder1$flUpEnrollment" /> <input id="ContentPlaceHolder1_hlHidEnrollment" type="hidden" name="ctl00$ContentPlaceHolder1$hlHidEnrollment" /></div>
+</div>
+</div>
+</div>
+</div>
+<div id="tab3" class="tab-pane">
+<div class="row">
+<div class="col-md-2 col-6">
+<p class="text-center"><strong>Finger-1 <span class="text-danger">*</span></strong></p>
+<img id="im1" class="img-fluid rounded-end border p-1" src="/app-assets/sd.jpg" alt="" /> <img id="cim1" class="img-fluid rounded-end border p-1" style="display: none;" src="/app-assets/check.png" alt="" /> <button class="btn btn-info capture w-100 mt-1" type="button" data-id="1">Capture</button> <input id="ContentPlaceHolder1_hidPic1" type="hidden" name="ctl00$ContentPlaceHolder1$hidPic1" />
+<h5 id="q1" class="text-center mt-3">&nbsp;</h5>
+</div>
+<div class="col-md-2 col-6">
+<p class="text-center"><strong>Finger-2 <span class="text-danger">*</span></strong></p>
+<img id="im2" class="img-fluid rounded-end border p-1" src="/app-assets/sd.jpg" alt="" /> <img id="cim2" class="img-fluid rounded-end border p-1" style="display: none;" src="/app-assets/check.png" alt="" /> <button class="btn btn-info capture w-100 mt-1" type="button" data-id="2">Capture</button> <input id="ContentPlaceHolder1_hidPic2" type="hidden" name="ctl00$ContentPlaceHolder1$hidPic2" />
+<h5 id="q2" class="text-center mt-3">&nbsp;</h5>
+</div>
+<div class="col-md-2 col-6">
+<p class="text-center"><strong>Finger-3 <span class="text-danger">*</span></strong></p>
+<img id="im3" class="img-fluid rounded-end border p-1" src="/app-assets/sd.jpg" alt="" /> <img id="cim3" class="img-fluid rounded-end border p-1" style="display: none;" src="/app-assets/check.png" alt="" /> <button class="btn btn-info capture w-100 mt-1" type="button" data-id="3">Capture</button> <input id="ContentPlaceHolder1_hidPic3" type="hidden" name="ctl00$ContentPlaceHolder1$hidPic3" />
+<h5 id="q3" class="text-center mt-3">&nbsp;</h5>
+</div>
+<div class="col-md-2 col-6">
+<p class="text-center"><strong>Finger-4 <span class="text-danger">*</span></strong></p>
+<img id="im4" class="img-fluid rounded-end border p-1" src="/app-assets/sd.jpg" alt="" /> <img id="cim4" class="img-fluid rounded-end border p-1" style="display: none;" src="/app-assets/check.png" alt="" /> <button class="btn btn-info capture w-100 mt-1" type="button" data-id="4">Capture</button> <input id="ContentPlaceHolder1_hidPic4" type="hidden" name="ctl00$ContentPlaceHolder1$hidPic4" />
+<h5 id="q4" class="text-center mt-3">&nbsp;</h5>
+</div>
+<div class="col-md-2 col-6">
+<p class="text-center"><strong>Finger-5 <span class="text-danger">*</span></strong></p>
+<img id="im5" class="img-fluid rounded-end border p-1" src="/app-assets/sd.jpg" alt="" /> <img id="cim5" class="img-fluid rounded-end border p-1" style="display: none;" src="/app-assets/check.png" alt="" /> <button class="btn btn-info capture w-100 mt-1" type="button" data-id="5">Capture</button> <input id="ContentPlaceHolder1_hidPic5" type="hidden" name="ctl00$ContentPlaceHolder1$hidPic5" />
+<h5 id="q5" class="text-center mt-3">&nbsp;</h5>
+</div>
+</div>
+<hr /><button id="ContentPlaceHolder1_btnSubit" class="btn btn-primary mr-2" onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('ctl00$ContentPlaceHolder1$btnSubit','')" type="button">Submit Request</button> <a class="btn btn-secondary" href="CreateApplication.aspx">Reset</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="/app-assets/capture.js"></script>
+<script type="text/javascript" src="/app-assets/mfs100-9.0.2.6.js"></script>
+<script type="text/javascript">// <![CDATA[
+        $("#ContentPlaceHolder1_chkIsUpdateNewName").on("change", function () {
+            if ($(this).is(':checked')) {
+                $("#ContentPlaceHolder1_txtNewName").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHNewName").prop("disabled", false);
+            }
+            else {
+                $("#ContentPlaceHolder1_txtNewName").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtNewName").val("");
+
+                $("#ContentPlaceHolder1_txtHNewName").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHNewName").val("");
+            }
+        });
+        $("#ContentPlaceHolder1_chkIsUpdateGender").on("change", function () {
+            if ($(this).is(':checked')) {
+                $("#ContentPlaceHolder1_cboGender").prop("disabled", false);
+            }
+            else {
+                $("#ContentPlaceHolder1_cboGender").prop("disabled", true);
+                $("#ContentPlaceHolder1_cboGender").val("");
+            }
+        });
+        $("#ContentPlaceHolder1_chkIsUpdateDOB").on("change", function () {
+            if ($(this).is(':checked')) {
+                $("#ContentPlaceHolder1_txtDOB").prop("disabled", false);
+                $("#ContentPlaceHolder1_cboProofDOB").prop("disabled", false);
+                $("#ContentPlaceHolder1_flUpProofDOB").prop("disabled", false);
+            }
+            else {
+                $("#ContentPlaceHolder1_txtDOB").prop("disabled", true);
+                $("#ContentPlaceHolder1_cboProofDOB").prop("disabled", true);
+                $("#ContentPlaceHolder1_flUpProofDOB").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtDOB").val("");
+                $("#ContentPlaceHolder1_cboProofDOB").val("").trigger('change');
+                $("#ContentPlaceHolder1_flUpProofDOB").val("");
+            }
+        });
+        
+        $("#ContentPlaceHolder1_chkIsUpdateMailId").on("change", function () {
+            if ($(this).is(':checked')) {
+                $("#ContentPlaceHolder1_txtNewMailId").prop("disabled", false);
+            }
+            else {
+                $("#ContentPlaceHolder1_txtNewMailId").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtNewMailId").val("");
+            }
+        });
+        $("#ContentPlaceHolder1_chkIsUpdateMobile").on("change", function () {
+            if ($(this).is(':checked')) {
+                $("#ContentPlaceHolder1_txtNewMobile").prop("disabled", false);
+            }
+            else {
+                $("#ContentPlaceHolder1_txtNewMobile").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtNewMobile").val("");
+            }
+        });
+
+        $("#ContentPlaceHolder1_chkIsUpdateAddress").on("change", function () {
+            if ($(this).is(':checked')) {
+                $("#ContentPlaceHolder1_txtCo").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHCo").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtALandmark").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHALandmark").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtALocation").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHALocation").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtAVillageCity").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHAVillageCity").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtADistrict").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtAPO").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHADistrict").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHAPO").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtAState").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtPincode").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHAState").prop("disabled", false);
+                $("#ContentPlaceHolder1_txtHPincode").prop("disabled", false);
+
+                $("#ContentPlaceHolder1_cboProofAddress").prop("disabled", false);
+                $("#ContentPlaceHolder1_flUpProofAddress").prop("disabled", false);
+            }
+            else {
+                $("#ContentPlaceHolder1_txtCo").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHCo").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtALandmark").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHALandmark").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtALocation").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHALocation").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtAVillageCity").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHAVillageCity").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtADistrict").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtAPO").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHADistrict").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHAPO").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtAState").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtPincode").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHAState").prop("disabled", true);
+                $("#ContentPlaceHolder1_txtHPincode").prop("disabled", true);
+
+                $("#ContentPlaceHolder1_txtCo").val("");
+                $("#ContentPlaceHolder1_txtHCo").val("");
+                $("#ContentPlaceHolder1_txtALandmark").val("");
+                $("#ContentPlaceHolder1_txtHALandmark").val("");
+                $("#ContentPlaceHolder1_txtALocation").val("");
+                $("#ContentPlaceHolder1_txtHALocation").val("");
+                $("#ContentPlaceHolder1_txtAVillageCity").val("");
+                $("#ContentPlaceHolder1_txtHAVillageCity").val("");
+                $("#ContentPlaceHolder1_txtADistrict").val("");
+                $("#ContentPlaceHolder1_txtAPO").val("");
+                $("#ContentPlaceHolder1_txtHADistrict").val("");
+                $("#ContentPlaceHolder1_txtHAPO").val("");
+                $("#ContentPlaceHolder1_txtAState").val("");
+                $("#ContentPlaceHolder1_txtPincode").val("");
+                $("#ContentPlaceHolder1_txtHAState").val("");
+                $("#ContentPlaceHolder1_txtHPincode").val("");
+
+                $("#ContentPlaceHolder1_cboProofAddress").prop("disabled", true);
+                $("#ContentPlaceHolder1_flUpProofAddress").prop("disabled", true);
+                $("#ContentPlaceHolder1_cboProofAddress").val("").trigger('change');
+                $("#ContentPlaceHolder1_flUpProofAddress").val("");
+            }
+        });
+
+
+    
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+        function ValidatePrimaryImage1(sender, args) {
+            var ii = $('#ContentPlaceHolder1_hidPic1').val();
+            if (ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidatePrimaryImage2(sender, args) {
+            var ii = $('#ContentPlaceHolder1_hidPic2').val();
+            if (ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidatePrimaryImage3(sender, args) {
+            var ii = $('#ContentPlaceHolder1_hidPic3').val();
+            if (ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidatePrimaryImage4(sender, args) {
+            var ii = $('#ContentPlaceHolder1_hidPic4').val();
+            if (ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidatePrimaryImage5(sender, args) {
+            var ii = $('#ContentPlaceHolder1_hidPic5').val();
+            if (ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidateNewName(sender, args) {
+            var ii = $('#ContentPlaceHolder1_txtNewName').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateNewName").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidateNewGender(sender, args) {
+            var ii = $('#ContentPlaceHolder1_cboGender').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateGender").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidateNewDOB(sender, args) {
+            var ii = $('#ContentPlaceHolder1_txtDOB').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateDOB").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidateDOBProof(sender, args) {
+            var ii = $('#ContentPlaceHolder1_cboProofDOB').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateDOB").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+
+        function ValidateDOBProofDoc(sender, args) {
+            var ii = document.getElementById("ContentPlaceHolder1_flUpProofDOB").files.length;
+            if ($("#ContentPlaceHolder1_chkIsUpdateDOB").is(':checked') && ii == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+
+        function ValidateAddressProof(sender, args) {
+            var ii = $('#ContentPlaceHolder1_cboProofAddress').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateAddress").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidateAddressProofDoc(sender, args) {
+            var ii = document.getElementById("ContentPlaceHolder1_flUpProofAddress").files.length;
+            if ($("#ContentPlaceHolder1_chkIsUpdateAddress").is(':checked') && ii == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+
+        function ValidateNewEmail(sender, args) {
+            var ii = $('#ContentPlaceHolder1_txtNewMailId').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateMailId").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+        function ValidateNewMobile(sender, args) {
+            var ii = $('#ContentPlaceHolder1_txtNewMobile').val();
+            if ($("#ContentPlaceHolder1_chkIsUpdateMobile").is(':checked') && ii.trim().length == 0) {
+                args.IsValid = false;
+            } else {
+                args.IsValid = true;
+            }
+        }
+    
+// ]]></script>
+</div>
+</div>
+<button class="btn btn-primary scroll-top" type="button"></button></div>
+</div>
+<div class="sidenav-overlay">&nbsp;</div>
+<div class="drag-target">&nbsp;</div>
+<!-- BEGIN VENDOR JS-->
+<script type="text/javascript" src="/app-assets/vendors/js/switchery.min.js"></script>
+<!-- BEGIN VENDOR JS--> <!-- BEGIN PAGE VENDOR JS-->
+<script type="text/javascript" src="/app-assets/vendors/js/datata/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/app-assets/vendors/js/datata/dataTables.bootstrap4.js"></script>
+<script type="text/javascript" src="/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="/app-assets/vendors/js/select2.full.min.js"></script>
+<!-- END PAGE VENDOR JS--> <!-- BEGIN APEX JS-->
+<script type="text/javascript" src="/app-assets/js/core/app-menu.min.js"></script>
+<script type="text/javascript" src="/app-assets/js/core/app.min.js"></script>
+<script type="text/javascript" src="/app-assets/js/notification-sidebar.min.js"></script>
+<script type="text/javascript" src="/app-assets/js/customizer.min.js"></script>
+<script type="text/javascript" src="/app-assets/js/scroll-top.min.js"></script>
+<script type="text/javascript">// <![CDATA[
+            $('.datatable1').dataTable({
+                searching: true,
+                ordering: false,
+                autoWidth: true,
+                responsive: true,
+                //lengthChange: false,
+                //scrollY: "45vh",
+                scrollX: true,
+            });
+            $('.datepicker_2').datepicker({
+                autoclose: true,
+                format: "yyyy-mm-dd"
+            });
+            $('.datepicker_1').datepicker({
+                autoclose: true,
+                format: "dd/mm/yyyy"
+            });
+            $('.select2').select2();
+
+            function successTost(Message, Position) {
+                alertify.set('notifier', 'position', Position);
+                alertify.success(Message);
+            }
+            function errorTost(Message, Position) {
+                alertify.set('notifier', 'position', Position);
+                alertify.error(Message);
+            }
+            function warningTost(Message, Position) {
+                alertify.set('notifier', 'position', Position);
+                alertify.warning(Message);
+            }
+        
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_ctl00"), document.getElementById("ContentPlaceHolder1_ctl01"), document.getElementById("ContentPlaceHolder1_CustomValidator6"), document.getElementById("ContentPlaceHolder1_CustomValidator7"), document.getElementById("ContentPlaceHolder1_CustomValidator8"), document.getElementById("ContentPlaceHolder1_CustomValidator10"), document.getElementById("ContentPlaceHolder1_CustomValidator11"), document.getElementById("ContentPlaceHolder1_CustomValidator9"), document.getElementById("ContentPlaceHolder1_CustomValidator12"), document.getElementById("ContentPlaceHolder1_CustomValidator13"), document.getElementById("ContentPlaceHolder1_CustomValidator14"));
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+var ContentPlaceHolder1_ctl00 = document.all ? document.all["ContentPlaceHolder1_ctl00"] : document.getElementById("ContentPlaceHolder1_ctl00");
+ContentPlaceHolder1_ctl00.controltovalidate = "ContentPlaceHolder1_txtName";
+ContentPlaceHolder1_ctl00.errormessage = "Feild Required!";
+ContentPlaceHolder1_ctl00.display = "Dynamic";
+ContentPlaceHolder1_ctl00.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_ctl00.initialvalue = "";
+var ContentPlaceHolder1_ctl01 = document.all ? document.all["ContentPlaceHolder1_ctl01"] : document.getElementById("ContentPlaceHolder1_ctl01");
+ContentPlaceHolder1_ctl01.controltovalidate = "ContentPlaceHolder1_txtAadhaarNo";
+ContentPlaceHolder1_ctl01.errormessage = "Feild Required!";
+ContentPlaceHolder1_ctl01.display = "Dynamic";
+ContentPlaceHolder1_ctl01.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_ctl01.initialvalue = "";
+var ContentPlaceHolder1_CustomValidator6 = document.all ? document.all["ContentPlaceHolder1_CustomValidator6"] : document.getElementById("ContentPlaceHolder1_CustomValidator6");
+ContentPlaceHolder1_CustomValidator6.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator6.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator6.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator6.clientvalidationfunction = "ValidateNewName";
+var ContentPlaceHolder1_CustomValidator7 = document.all ? document.all["ContentPlaceHolder1_CustomValidator7"] : document.getElementById("ContentPlaceHolder1_CustomValidator7");
+ContentPlaceHolder1_CustomValidator7.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator7.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator7.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator7.clientvalidationfunction = "ValidateNewGender";
+var ContentPlaceHolder1_CustomValidator8 = document.all ? document.all["ContentPlaceHolder1_CustomValidator8"] : document.getElementById("ContentPlaceHolder1_CustomValidator8");
+ContentPlaceHolder1_CustomValidator8.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator8.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator8.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator8.clientvalidationfunction = "ValidateNewDOB";
+var ContentPlaceHolder1_CustomValidator10 = document.all ? document.all["ContentPlaceHolder1_CustomValidator10"] : document.getElementById("ContentPlaceHolder1_CustomValidator10");
+ContentPlaceHolder1_CustomValidator10.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator10.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator10.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator10.clientvalidationfunction = "ValidateNewEmail";
+var ContentPlaceHolder1_CustomValidator11 = document.all ? document.all["ContentPlaceHolder1_CustomValidator11"] : document.getElementById("ContentPlaceHolder1_CustomValidator11");
+ContentPlaceHolder1_CustomValidator11.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator11.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator11.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator11.clientvalidationfunction = "ValidateNewMobile";
+var ContentPlaceHolder1_CustomValidator9 = document.all ? document.all["ContentPlaceHolder1_CustomValidator9"] : document.getElementById("ContentPlaceHolder1_CustomValidator9");
+ContentPlaceHolder1_CustomValidator9.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator9.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator9.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator9.clientvalidationfunction = "ValidateDOBProof";
+var ContentPlaceHolder1_CustomValidator12 = document.all ? document.all["ContentPlaceHolder1_CustomValidator12"] : document.getElementById("ContentPlaceHolder1_CustomValidator12");
+ContentPlaceHolder1_CustomValidator12.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator12.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator12.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator12.clientvalidationfunction = "ValidateDOBProofDoc";
+var ContentPlaceHolder1_CustomValidator13 = document.all ? document.all["ContentPlaceHolder1_CustomValidator13"] : document.getElementById("ContentPlaceHolder1_CustomValidator13");
+ContentPlaceHolder1_CustomValidator13.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator13.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator13.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator13.clientvalidationfunction = "ValidateAddressProof";
+var ContentPlaceHolder1_CustomValidator14 = document.all ? document.all["ContentPlaceHolder1_CustomValidator14"] : document.getElementById("ContentPlaceHolder1_CustomValidator14");
+ContentPlaceHolder1_CustomValidator14.errormessage = "Feild Required!";
+ContentPlaceHolder1_CustomValidator14.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator14.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator14.clientvalidationfunction = "ValidateAddressProofDoc";
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+// ]]></script>
+</form>
